@@ -43,3 +43,74 @@ color: #EDEFF2;
     border-style: solid;
     border-color: #333948
 }
+
+.dropDown-IR{
+    position: absolute;
+    left: 3.99%;
+    right: 3.99%;
+    top: 16.46%;
+    bottom: 71.74%;
+
+    /* colors/neutral/950 */
+
+    background: #202432;
+    /* colors/neutral/900 */
+
+    border: 1.01451px solid #333948;
+    border-radius: 8.11607px;
+}
+
+
+
+.valores {
+    position: absolute;
+    width: 369px;
+    height: 128px;
+    left: 16px;
+    top: 127px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14.2px;
+    line-height: 20.29px;
+    color: #F7F8F9;
+    margin-left: 16px;
+}
+
+.valor-numero {
+    position: absolute;
+    left: 87.79%;
+    right: 2.74%;
+    margin-top: -34px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.2031px;
+    line-height: 20px;
+    /* or 143% */
+
+    display: flex;
+}
+.valor-mensal {
+    /* R$22,90 */
+
+    position: absolute;
+    left: 81.8%;
+    right: 4.24%;
+    margin-top: -34px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.2031px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* colors/neutral/0 */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4.05803px 4.05803px rgba(0, 0, 0, 0.25);
+}
