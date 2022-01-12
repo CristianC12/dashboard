@@ -1,0 +1,45 @@
+.IR-component {
+    background-color: #202432;
+    position: relative;
+    width: 401px;
+    height: 407px;    
+}
+
+.IRsvg {
+    position: absolute;
+    left: 3.99%;
+    right: 90.02%;
+    top: 3.44%;
+    bottom: 90.66%;
+}
+
+.titulo-IR {
+    /* Calculadora de IR */
+
+
+position: absolute;
+left: 11.97%;
+right: 51.62%;
+top: 0.5%;
+bottom: 91.15%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* colors/neutral/50 */
+
+color: #EDEFF2;
+}
+
+.IR-top {
+    min-height: 49px;
+    border:0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #333948
+}
