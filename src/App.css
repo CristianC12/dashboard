@@ -45,7 +45,21 @@ body {
 }
 
 .titulo-card {
-    /* Calculadora de IR */
+    position: absolute;
+    left: 11.97%;
+    right: 51.62%;
+    top: 0.5%;
+    width: 100%;
+    bottom: 91.15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EDEFF2;
+}
+
+.titulo-card2 {
     position: absolute;
     left: 11.97%;
     right: 51.62%;

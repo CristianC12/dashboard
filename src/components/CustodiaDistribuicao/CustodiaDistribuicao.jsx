@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function Distribuicao() {
+function CustodiaDistribuicao() {
     return (
-        <div className='distribuicao-component default-margin-component default-border'>
+        <div className='CustodiaDistribuicao-component default-margin-component default-border'>
 
             <div className='card-top'>
                 <svg className='card-svg' width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,7 +18,7 @@ function Distribuicao() {
     );
 }
 
-export default Distribuicao
+export default CustodiaDistribuicao
 
 
 

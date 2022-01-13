@@ -1,0 +1,29 @@
+.CustodiaPosicao-component {
+    background-color: #202432;
+    position: relative;
+    width: 805px;
+    height: 422px;
+    margin-top: 0;
+}
+
+.card-svg-posicao {
+    position: absolute;
+    left: 3%;
+    right: 90.02%;
+    top: 4.5%;
+    bottom: 90.66%;
+}
+
+.titulo-card-posicao {
+    position: absolute;
+    top: 0.5%;
+    width: 90%;
+    left: 58px;
+    bottom: 91.15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EDEFF2;
+}
