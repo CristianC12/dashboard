@@ -60,14 +60,30 @@ color: #EDEFF2;
     border-radius: 8.11607px;
 }
 
+.dropDown-IR p {
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 14.2px;
+    font-weight: 400;
+    line-height: 20.29px;
+    left: 16.23px;
+    color: #A6ADBA;
+}
+
+.dropDown-IR img {
+    position: absolute;
+    left: 336px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+}
 
 
 .valores {
-    position: absolute;
+    position: relative;
     width: 369px;
     height: 128px;
-    left: 16px;
-    top: 127px;
+    top: 65px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14.2px;
@@ -77,11 +93,9 @@ color: #EDEFF2;
 }
 
 .valor-numero {
-    position: absolute;
-    left: 87.79%;
-    right: 2.74%;
+    position: relative;
+    left: 336px;
     margin-top: -34px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -91,13 +105,26 @@ color: #EDEFF2;
 
     display: flex;
 }
+
+#valor-numero-borda{
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7C8597;
+    left: 315px;
+    top: 65px;
+    width: 49px;
+    height: 25px;
+    border-radius: 3px;
+}
+
 .valor-mensal {
     /* R$22,90 */
 
-    position: absolute;
-    left: 81.8%;
-    right: 4.24%;
+    position: relative;
+    left: 312px;
     margin-top: -34px;
+    margin-bottom: 16px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
@@ -114,3 +141,58 @@ color: #EDEFF2;
 
     text-shadow: 0px 4.05803px 4.05803px rgba(0, 0, 0, 0.25);
 }
+
+.valor-final {
+    margin-left: 16px;
+}
+
+#retangulo {
+    position: absolute;
+    width:367px;
+    bottom: 143px;
+    height: 1px;
+    background: #576074;
+}
+
+.valor-total {
+    position: relative;
+    top: 70px;
+    color: #EDEFF2;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.valor-total-resultado {
+    color: #EDEFF2;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    position: relative;
+    line-height: 125%;
+    top: 27px;
+    left: 290px;
+}
+
+.valor-final button {
+    position: absolute;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    border: solid;
+    border-color: #292E3D;
+    font-weight: 500;
+    line-height: 16,1px;
+    font-size: 14px;
+    color: #458AF2;
+    background-color: #292E3D;
+    bottom: 24px;
+    height: 40px;
+    width: 369px;
+    transition: 1s;
+}
+
+.valor-final button:hover {
+    border: 1px;
+    border-style: solid;
+    border-color: #458AF2;
+}    
