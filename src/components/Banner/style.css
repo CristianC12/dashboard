@@ -1,5 +1,7 @@
 .banner-component{
-    padding: 2%;
+    height: 210px;
+    border-radius: 10px;
+    
 }
 
 .textos {

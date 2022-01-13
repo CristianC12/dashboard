@@ -1,32 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 /*font-family: 'Roboto', sans-serif;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /*font-family: 'Roboto', sans-serif;*/
 
 body {
-  background-color: #141721;
+    background-color: #141721;
+}
+
+.components {
+    display: flex;
+    flex-direction: row;
 }
 
 .default-margin {
-  margin: 24px 40px;
+    margin-left: 40px;
+    margin-top: 24px;
+    margin-right: 50px;
+    margin-bottom: 24px;
+}
+
+.default-margin-component {
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.default-margin-components {
+    margin-left: 16px;
+    margin-right: 50px;
 }
 
 .text-left {
-  text-align: left;
+    text-align: left;
 }
 
-.titulo-card{
-  height: 54px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #EDEFF2;
+.card-svg {
+    position: absolute;
+    left: 3.99%;
+    right: 90.02%;
+    top: 3.44%;
+    bottom: 90.66%;
+}
+
+.titulo-card {
+    /* Calculadora de IR */
+    position: absolute;
+    left: 11.97%;
+    right: 51.62%;
+    top: 0.5%;
+    width: 100%;
+    bottom: 91.15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* colors/neutral/50 */
+    color: #EDEFF2;
+}
+
+.card-top {
+    min-height: 49px;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #333948
 }
 
 .default-border {
-  border: 1px;
-  border-style: solid;
-  border-color: #2A3749;
-  border-radius: 0.9vw ;
+    border: 1px;
+    border-style: solid;
+    border-color: #2A3749;
+    border-radius: 0.9vw;
 }
-

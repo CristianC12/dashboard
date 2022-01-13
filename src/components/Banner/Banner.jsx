@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 
 function Banner() {
-    return(
+    return (
         <div className='banner-component default-margin default-border'>
             <div className='textos'>
                 <p className='titulo-banner text-left'>IR agora é no TC</p>

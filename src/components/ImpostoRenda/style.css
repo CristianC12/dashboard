@@ -2,60 +2,19 @@
     background-color: #202432;
     position: relative;
     width: 401px;
-    height: 407px;    
+    height: 407px;
+    margin-top: 0;
 }
 
-.IRsvg {
-    position: absolute;
-    left: 3.99%;
-    right: 90.02%;
-    top: 3.44%;
-    bottom: 90.66%;
-}
-
-.titulo-IR {
-    /* Calculadora de IR */
-
-
-position: absolute;
-left: 11.97%;
-right: 51.62%;
-top: 0.5%;
-bottom: 91.15%;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-
-/* colors/neutral/50 */
-
-color: #EDEFF2;
-}
-
-.IR-top {
-    min-height: 49px;
-    border:0px;
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: #333948
-}
-
-.dropDown-IR{
+.dropDown-IR {
     position: absolute;
     left: 3.99%;
     right: 3.99%;
     top: 16.46%;
     bottom: 71.74%;
-
     /* colors/neutral/950 */
-
     background: #202432;
     /* colors/neutral/900 */
-
     border: 1.01451px solid #333948;
     border-radius: 8.11607px;
 }
@@ -72,12 +31,11 @@ color: #EDEFF2;
 
 .dropDown-IR img {
     position: absolute;
-    left: 336px;
+    left: 326px;
     top: 13px;
     width: 20px;
     height: 20px;
 }
-
 
 .valores {
     position: relative;
@@ -86,7 +44,7 @@ color: #EDEFF2;
     top: 65px;
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 14.2px;
+    font-size: 14px;
     line-height: 20.29px;
     color: #F7F8F9;
     margin-left: 16px;
@@ -94,7 +52,7 @@ color: #EDEFF2;
 
 .valor-numero {
     position: relative;
-    left: 336px;
+    left: 330px;
     margin-top: -34px;
     font-family: Roboto;
     font-style: normal;
@@ -102,16 +60,15 @@ color: #EDEFF2;
     font-size: 14.2031px;
     line-height: 20px;
     /* or 143% */
-
     display: flex;
 }
 
-#valor-numero-borda{
+#valor-numero-borda {
     position: absolute;
     border-style: solid;
     border-width: 1px;
     border-color: #7C8597;
-    left: 315px;
+    left: 309px;
     top: 65px;
     width: 49px;
     height: 25px;
@@ -120,9 +77,8 @@ color: #EDEFF2;
 
 .valor-mensal {
     /* R$22,90 */
-
     position: relative;
-    left: 312px;
+    left: 308px;
     margin-top: -34px;
     margin-bottom: 16px;
     font-family: 'Roboto';
@@ -130,15 +86,11 @@ color: #EDEFF2;
     font-weight: normal;
     font-size: 14.2031px;
     line-height: 20px;
-
     display: flex;
     align-items: center;
     text-align: center;
-
     /* colors/neutral/0 */
-
     color: #FFFFFF;
-
     text-shadow: 0px 4.05803px 4.05803px rgba(0, 0, 0, 0.25);
 }
 
@@ -148,7 +100,7 @@ color: #EDEFF2;
 
 #retangulo {
     position: absolute;
-    width:367px;
+    width: 360px;
     bottom: 143px;
     height: 1px;
     background: #576074;
@@ -171,7 +123,7 @@ color: #EDEFF2;
     position: relative;
     line-height: 125%;
     top: 27px;
-    left: 290px;
+    left: 280px;
 }
 
 .valor-final button {
@@ -181,13 +133,13 @@ color: #EDEFF2;
     border: solid;
     border-color: #292E3D;
     font-weight: 500;
-    line-height: 16,1px;
+    line-height: 16, 1px;
     font-size: 14px;
     color: #458AF2;
     background-color: #292E3D;
     bottom: 24px;
     height: 40px;
-    width: 369px;
+    width: 358px;
     transition: 1s;
 }
 
@@ -195,4 +147,4 @@ color: #EDEFF2;
     border: 1px;
     border-style: solid;
     border-color: #458AF2;
-}    
+}
