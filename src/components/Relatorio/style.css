@@ -113,7 +113,7 @@
 }
 
 #acessar {
-    margin-left: 16px;
+    margin-left: 14px;
     position: absolute;
     border-radius: 8px;
     font-family: 'Roboto';
@@ -134,5 +134,7 @@
 }
 
 #svg-acesso {
-    margin-right: 16px;
+    position: relative;
+    top: 1px;
+    margin-right: 8px;
 }

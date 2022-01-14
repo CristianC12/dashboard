@@ -18,7 +18,7 @@ function ControleResultados() {
                 <p className='assinaturaDescricao'>
                     Assine o Controle de Resultados e tenha acesso a todos os controles durante 12 meses.
                 </p>
-                <p className='assinaturaOBS'>
+                <p id='assinaturaOBS'>
                     *Não inclui o cálculo de IR
                 </p>
                 <div className='assinaturaPreco'>
