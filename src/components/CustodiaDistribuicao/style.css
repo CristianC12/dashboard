@@ -22,7 +22,7 @@
 #grafico h1 {
     position: absolute;
     z-index: 2;
-    top: 180px;
+    top: 175px;
     text-align: center;
     width: 53%;
     font-family: 'Roboto';
@@ -33,7 +33,7 @@
 
 #grafico h2{
     position: absolute;
-    top: 162px;
+    top: 157px;
     text-align: center;
     width: 53%;
     z-index: 2;
