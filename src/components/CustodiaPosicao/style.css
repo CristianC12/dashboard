@@ -67,15 +67,34 @@
  }
  
 
- .table-pages button {
+ .table-pages .botao-pagina {
+    position: relative;
     width: 40px;
     border-radius: 100px;
     height: 40px;
     background-color: #202432;
     border: 1px solid #30445F;
+    bottom: 8px;
+ }
+
+ .botao-visualizar{
+    position: absolute;
+    right: 24px;
+    height: 40px;
+    width: 192px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    color: #458AF2;
+    border: 1px solid #458AF2;
+    background-color: #202432;
+    border-radius: 8px;
+    bottom: 24px;
  }
 
  .table-pages div {
+    position: relative;
+    bottom: 8px;
     width: 40px;
     height: 40px;
     background-color: #4364E8;
