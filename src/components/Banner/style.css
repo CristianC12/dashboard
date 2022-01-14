@@ -1,7 +1,13 @@
 .banner-component{
     height: 210px;
+    width: 1217px;
     border-radius: 10px;
-    
+}
+
+.banner-component img {
+    position: absolute;
+    z-index: -1;
+    width: 1217px;
 }
 
 .textos {
@@ -12,6 +18,7 @@
 
 .titulo-banner{
     color: white;
+    margin-top: 57px;
     font-size: 36px;
 }
 
