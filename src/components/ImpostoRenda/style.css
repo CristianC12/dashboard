@@ -52,7 +52,7 @@
 
 .valor-numero {
     position: relative;
-    left: 330px;
+    left: 333px;
     margin-top: -34px;
     font-family: Roboto;
     font-style: normal;
@@ -63,14 +63,25 @@
     display: flex;
 }
 
-#valor-numero-borda {
+#input-mes {
     position: absolute;
-    border: 1px solid #7C8597;
     left: 309px;
     top: 65px;
     width: 49px;
     height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.2031px;
+    color: #F7F8F9; ;
+    background-color: #202432;
+    border: 1px solid #7C8597;
+    text-align: center;
+    overflow: hidden;
     border-radius: 3px;
+    font-size: 14.2031px;
+    line-height: 20px;
+    display: flex;
 }
 
 .valor-mensal {

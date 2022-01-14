@@ -23,10 +23,15 @@ function ImpostoRenda() {
                 <p>Meses de cálculo atualmente disponíveis:</p>     <p className='valor-numero'>0</p>
                 <p>Meses de cálculo para contratar:</p>     <p className='valor-numero'>0</p>
 
-                {/* Na pratica em o "valor-numero" abaixo deve ser um input de numero */}
-                <div id='valor-numero-borda'></div>
-                <p>Contratar mais meses (quantidade ao lado):</p>   <p className='valor-numero'>0</p>
+            {/*  */}
+            {/*  */}
+            {/* IMPORTANTE FAZER A VALIDAÇÃO NESSE INPUT ABAIXO APENAS PARA NÚMEROS SEM TIRAR DO TYPE TEXT */}
+            {/*  */}
+            {/*  */}
 
+                <div id='valor-numero-borda'></div>
+                <p>Contratar mais meses (quantidade ao lado):</p>    
+                <input id='input-mes' placeholder="0"/>
 
                 <p>Valor por mês:</p>   <p className='valor-mensal'>R$22,90</p>
             </div>
