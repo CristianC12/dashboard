@@ -5,3 +5,53 @@
     height: 422px;
     margin-top: 0;
 }
+
+.controle-resultados-top {
+    margin-left: 16px;
+    margin-top: 26px;
+    font-family: 'Roboto';
+}
+
+.controle-resultados-bot {
+    margin-left: 16px;
+}
+
+.assinaturaTitulo {
+    font-weight: 500;
+    font-size: 24px;
+    width: 75%;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.assinaturaDescricao {
+    font-weight: 400;
+    font-size: 14px;
+    width: 83%;
+    color: #8D96A6;
+    margin-bottom: 32px;
+}
+
+.assinaturaOBS {
+    font-weight: 600;
+    font-size: 12px;
+    color: #8D96A6;
+}
+
+.assinaturaPreco {
+    display: flex;
+    margin-top: -33px;
+}
+
+#precoAssinaturaANO {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#precoAssinatura {
+    font-size: 32px;
+    margin-top: 26;
+    color: #FFFFFF;
+}
