@@ -65,9 +65,7 @@
 
 #valor-numero-borda {
     position: absolute;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #7C8597;
+    border: 1px solid #7C8597;
     left: 309px;
     top: 65px;
     width: 49px;
@@ -130,8 +128,7 @@
     position: absolute;
     border-radius: 8px;
     font-family: 'Roboto';
-    border: solid;
-    border-color: #292E3D;
+    border: 1px solid #292E3D;
     font-weight: 500;
     line-height: 16, 1px;
     font-size: 14px;
@@ -144,7 +141,5 @@
 }
 
 .valor-final button:hover {
-    border: 1px;
-    border-style: solid;
-    border-color: #458AF2;
+    border: 1px solid #458AF2;;
 }

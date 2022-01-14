@@ -2,6 +2,7 @@
     background-color: #202432;
     position: relative;
     width: 805px;
+    z-index: -2;
     height: 422px;
     margin-top: 0;
 }
@@ -27,3 +28,64 @@
     line-height: 19px;
     color: #EDEFF2;
 }
+
+.custodia-table {
+    width: 100%;
+    margin-left: 24px;
+    margin-bottom: 48px;
+}
+
+.svgCimaBaixo {
+    margin-right: 5px;
+}
+
+.custodia-table td{
+    height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #EDEFF2;
+ }
+ 
+ .TRcinza{
+     background-color: #333948;
+     height: 45px;
+     z-index: -1;
+     width: 100%;
+     position: absolute;
+     margin-left: -26px;
+ }
+
+ .custodia-table #tabela-itens td {
+    margin: 0 20px;
+    font-weight: 500;
+}
+
+ .table-pages {
+    display:flex;
+    margin-left: 24px;
+ }
+ 
+
+ .table-pages button {
+    width: 40px;
+    border-radius: 100px;
+    height: 40px;
+    background-color: #202432;
+    border: 1px solid #30445F;
+ }
+
+ .table-pages div {
+    width: 40px;
+    height: 40px;
+    background-color: #4364E8;
+    margin: 0 16px;
+    border-radius: 100px;
+    border: 1px solid #458AF2;
+ }
+
+ .table-pages p {
+    color: #FFFFFF;
+    line-height: 7px;
+    text-align: center;
+ }
