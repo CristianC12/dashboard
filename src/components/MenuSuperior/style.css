@@ -16,15 +16,20 @@
     color: #DDE0E5;
 }
 
-#ATIVO {
+.menuSuperior button:hover {
     color: #458AF2;
-    font-weight: 500;
+    font-weight: 400;
+    border-bottom: 2px solid #458AF2;
 }
 
 .menuSuperior p svg {
     position: absolute;
     margin-left: 10px;
 }
+
+.menuSuperior button:hover path {
+    fill: #458AF2;
+  }
 
 .menuSuperior button {
     padding: 10px;
