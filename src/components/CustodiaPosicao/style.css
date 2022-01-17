@@ -1,5 +1,5 @@
 .CustodiaPosicao-component {
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     position: relative;
     width: 805px;
     min-width: 805px;
@@ -22,12 +22,12 @@
     width: 90%;
     left: 58px;
     bottom: 91.15%;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #EDEFF2;
+    color: var(--mainText);
 }
 
 .custodia-table {
@@ -45,11 +45,11 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
-    color: #EDEFF2;
+    color: var(--mainText);
  }
  
  .TRcinza{
-     background-color: #333948;
+     background-color: var(--bgTable);;
      height: 45px;
      z-index: -1;
      width: 100%;
@@ -73,7 +73,7 @@
     width: 40px;
     border-radius: 100px;
     height: 40px;
-    background-color: #202432;
+    background-color: var(--mainBgColor);;
     border: 1px solid #30445F;
     bottom: 8px;
  }
@@ -86,9 +86,9 @@
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    color: #458AF2;
-    border: 1px solid #458AF2;
-    background-color: #202432;
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    background-color: var(--mainBgColor);
     border-radius: 8px;
     bottom: 24px;
  }
@@ -98,14 +98,14 @@
     bottom: 8px;
     width: 40px;
     height: 40px;
-    background-color: #4364E8;
+    background-color: var(--pagesTable);
     margin: 0 16px;
     border-radius: 100px;
-    border: 1px solid #458AF2;
+    border: 1px solid var(--mainColor);
  }
 
  .table-pages p {
-    color: #FFFFFF;
+    color: var(--valoresText);                                                                                                                                                                             
     line-height: 7px;
     text-align: center;
  }

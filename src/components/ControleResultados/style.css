@@ -1,5 +1,5 @@
 .ControleResultados-component {
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     position: relative;
     width: 386px;
     min-width: 386px;
@@ -21,7 +21,7 @@
     font-weight: 500;
     font-size: 24px;
     width: 75%;
-    color: #FFFFFF;
+    color: var(--valoresText);
     margin-bottom: 26px;
 }
 
@@ -29,14 +29,14 @@
     font-weight: 400;
     font-size: 14px;
     width: 83%;
-    color: #8D96A6;
+    color: var(--secondaryText);
     margin-bottom: 32px;
 }
 
 #assinaturaOBS {
     font-weight: 500;
     font-size: 12px;
-    color: #8D96A6;
+    color: var(--secondaryText);
 }
 
 .assinaturaPreco {
@@ -46,7 +46,7 @@
 
 #precoAssinaturaANO {
     font-size: 12px;
-    color: #FFFFFF;
+    color: var(--valoresText);
     margin-top: 50px;
     margin-left: 10px;
 }
@@ -54,5 +54,5 @@
 #precoAssinatura {
     font-size: 32px;
     margin-top: 26;
-    color: #FFFFFF;
+    color: var(--valoresText);
 }

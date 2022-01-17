@@ -20,7 +20,7 @@ input[type=checkbox]:before {
     height: 17px;
     top: 0;
     left: 0;
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     border-color: #79AAF2;
     border-style: solid;
     border-width: 2px;
@@ -35,7 +35,7 @@ input[type=checkbox]:checked:before {
     border-radius: 4px;
     top: 0;
     left: 0;
-    background-color:#458AF2;
+    background-color:var(--mainColor);
     border-color: #79AAF2;
     border-style: solid;
     border-width: 2px;

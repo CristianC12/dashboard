@@ -1,5 +1,5 @@
 .CustodiaDistribuicao-component {
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     position: relative;
     width: 378px;
     min-width: 378px;
@@ -27,7 +27,7 @@
     text-align: center;
     width: 53%;
     font-family: 'Roboto';
-    color: #FFFFFF;
+    color: var(--valoresText);
     font-weight: 500;
     font-size: 16px;
 }
@@ -76,7 +76,7 @@
     position: relative;
     width: 180px;
     height: 180px;
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     top: 10px;
     left: 10px;
     right: 10px;
@@ -89,31 +89,27 @@
     border-radius: 8px;
     font-family: 'Roboto';
     border: solid;
-    border-color: #458AF2;
+    border-color: var(--mainColor);
     font-weight: 500;
     line-height: 16, 1px;
     font-size: 14px;
-    color: #202432;
-    background-color: #458AF2;
+    color: var(--buttonText);
+    background-color: var(--mainColor);
     bottom: 24px;
     height: 40px;
     width: 166px;
     transition: 1s;
 }
 
+#botaografico path {
+    fill: var(--buttonText);
+  }
+
 #svg-grafico {
     position: relative;
     margin-right: 8px;
     top: 3px;
 }
-
-.recalcular:hover, 
-.enviar-notas:hover {
-    border: 1px;
-    border-style: solid;
-    border-color: #458AF2;
-}
-
 .enviar-notas {
     margin-left: 12px;
     left: 186px;

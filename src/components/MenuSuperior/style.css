@@ -3,7 +3,7 @@
     display: flex;
     width: 1295px;
     height: 54px;
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     margin-bottom: 22px;
 }
 
@@ -17,9 +17,9 @@
 }
 
 .menuSuperior button:hover {
-    color: #458AF2;
+    color: var(--mainColor);
     font-weight: 400;
-    border-bottom: 2px solid #458AF2;
+    border-bottom: 2px solid var(--mainColor);
 }
 
 .menuSuperior p svg {
@@ -28,7 +28,7 @@
 }
 
 .menuSuperior button:hover path {
-    fill: #458AF2;
+    fill: var(--mainColor);
   }
 
 .menuSuperior button {
@@ -40,7 +40,7 @@
     font-weight: 400;
     height: 54px;
     color: #8D96A6;
-    background-color: #202432;
+    background-color: var(--mainBgColor);
 }
 
 .menuSuperior button svg{

@@ -1,5 +1,5 @@
 .IR-component {
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     position: relative;
     width: 401px;
     min-width: 401px;
@@ -13,9 +13,7 @@
     right: 3.99%;
     top: 16.46%;
     bottom: 71.74%;
-    /* colors/neutral/950 */
-    background: #202432;
-    /* colors/neutral/900 */
+    background: var(--mainBgColor);
     border: 1.01451px solid #333948;
     border-radius: 8.11607px;
 }
@@ -27,7 +25,7 @@
     font-weight: 400;
     line-height: 20.29px;
     left: 16.23px;
-    color: #A6ADBA;
+    color: var(--secondaryText);
 }
 
 .dropDown-IR img {
@@ -47,7 +45,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20.29px;
-    color: #F7F8F9;
+    color: var(--optionsMainText);
     margin-left: 16px;
 }
 
@@ -55,12 +53,11 @@
     position: relative;
     left: 333px;
     margin-top: -34px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 14.2031px;
     line-height: 20px;
-    /* or 143% */
     display: flex;
 }
 
@@ -70,12 +67,11 @@
     top: 65px;
     width: 49px;
     height: 25px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 14.2031px;
-    color: #F7F8F9; ;
-    background-color: #202432;
+    background-color: var(--mainBgColor);
     border: 1px solid #7C8597;
     text-align: center;
     overflow: hidden;
@@ -86,7 +82,6 @@
 }
 
 .valor-mensal {
-    /* R$22,90 */
     position: relative;
     left: 308px;
     margin-top: -34px;
@@ -99,8 +94,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    /* colors/neutral/0 */
-    color: #FFFFFF;
+    color: var(--valoresText);
     text-shadow: 0px 4.05803px 4.05803px rgba(0, 0, 0, 0.25);
 }
 
@@ -119,14 +113,14 @@
 .valor-total {
     position: relative;
     top: 70px;
-    color: #EDEFF2;
+    color: var(--mainText);
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
 }
 
 .valor-total-resultado {
-    color: #EDEFF2;
+    color: var(--mainText);
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 23px;
@@ -140,18 +134,14 @@
     position: absolute;
     border-radius: 8px;
     font-family: 'Roboto';
-    border: 1px solid #292E3D;
+    border: 1px solid var(--contratar-bg-color);
     font-weight: 500;
     line-height: 16, 1px;
     font-size: 14px;
-    color: #458AF2;
-    background-color: #292E3D;
+    color: var(--mainColor);
+    background-color: var(--contratar-bg-color);
     bottom: 24px;
     height: 40px;
     width: 369px;
     transition: 1s;
-}
-
-.valor-final button:hover {
-    border: 1px solid #458AF2;;
 }

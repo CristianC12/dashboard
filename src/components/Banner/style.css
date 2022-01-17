@@ -18,13 +18,13 @@
 }
 
 .titulo-banner{
-    color: white;
+    color: var(--valoresText);
     margin-top: 57px;
     font-size: 36px;
 }
 
 .sub-banner {
-    color: white;
+    color: var(--valoresText);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

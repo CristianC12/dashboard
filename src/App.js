@@ -21,6 +21,10 @@ function App() {
         <CustodiaPosicao />
         <ControleResultados />
       </div>
+      
+      <label id='TESTE2' for="TESTE"> Trocar tema da pagina *TERMINAR*</label>
+      <input id='TESTE' name="theme" type="checkbox" class="toggle-dark-mode" />
+
     </div>
   );
 }
