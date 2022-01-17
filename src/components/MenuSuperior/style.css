@@ -1,0 +1,43 @@
+.menuSuperior {
+    position: relative;
+    display: flex;
+    width: 1295px;
+    height: 54px;
+    background-color: #202432;
+    margin-bottom: 22px;
+}
+
+.menuSuperior p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-left: 24px;
+    font-weight: 400;
+    margin-right: 40px;
+    color: #DDE0E5;
+}
+
+#ATIVO {
+    color: #458AF2;
+    font-weight: 500;
+}
+
+.menuSuperior p svg {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.menuSuperior button {
+    padding: 10px;
+    margin: 0 16px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    height: 54px;
+    color: #8D96A6;
+    background-color: #202432;
+}
+
+.menuSuperior button svg{
+    margin-left: 16px;
+}

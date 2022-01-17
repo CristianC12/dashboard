@@ -2,6 +2,7 @@
     background-color: #202432;
     position: relative;
     width: 386px;
+    min-width: 386px;
     height: 422px;
     margin-top: 0;
 }
