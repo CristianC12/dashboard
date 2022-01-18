@@ -139,7 +139,7 @@
     line-height: 16, 1px;
     font-size: 14px;
     color: var(--mainColor);
-    background-color: var(--contratar-bg-color);
+    background-color: var(--contratarBgColor);
     bottom: 24px;
     height: 40px;
     width: 369px;
